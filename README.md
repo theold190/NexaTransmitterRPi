@@ -1,3 +1,15 @@
-Nexa 433Mhz RF remote transmitter library
+## Nexa remote control from Raspberry Pi
 
-The code is based on [Arduino HomeEasy](http://www.arduino.cc/playground/Code/HomeEasy) wiki page. The code was extended with dimmer level handling.
+Example for communicating with Nexa (or Arctech, KuKu, etc) 433MHz RF remote from a Raspberry Pi.
+
+# Requirements
+* wiringPi, http://wiringpi.com/download-and-install/
+
+# Quickstart
+An example, NexaExample.cpp, will turn off a unit, wait 3 seconds and turn it back on again.
+$ git clone https://github.com/henrikjonhed/NexaTransmitter.git
+$ cd NexaTransmitter
+$ make
+$ sudo ./NexaExample
+
+Forked from https://github.com/erix/NexaTransmitter

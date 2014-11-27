@@ -1,6 +1,8 @@
 #ifndef NexaTransmitter_h
 #define NexaTransmitter_h
 
+#include <wiringPi.h>
+
 class NexaTransmitter
 {
 

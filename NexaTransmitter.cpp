@@ -34,13 +34,7 @@
  *
  */
 
-#if defined(ARDUINO) && ARDUINO >= 100
-  #include "Arduino.h"
-  #else
-  #include "WProgram.h"
-  #endif
 #include "NexaTransmitter.h"
-
 
 NexaTransmitter::NexaTransmitter(short pin, unsigned long remote) :
   txPin(pin),
