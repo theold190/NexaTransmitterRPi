@@ -5,6 +5,13 @@ Example for communicating with Nexa (or Arctech, KaKu, etc) 433MHz RF remote con
 # Requirements
 * [wiringPi](http://wiringpi.com/download-and-install/)
 
+* 433MHz transmitter circuit, for example [this](http://www.kjell.com/sortiment/el/elektronik/fjarrstyrning/433-mhz-sandar-och-mottagarmodul-p88905)
+
+# Hardware setup
+The transmitter is connected as follows:
+
+![Connections](connections.png)
+
 # Quickstart
 An example, NexaExample.cpp, will turn off a unit, wait 3 seconds and turn it back on again.
 
