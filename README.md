@@ -1,19 +1,19 @@
-## Remote control Nexa switches from Raspberry Pi
+# Control Nexa switches from Raspberry Pi
 
-Example for communicating with Nexa (or Arctech, KaKu, etc) 433MHz RF remote controlled power supply with a Raspberry Pi. This is a port from [erix Arduino lib](https://github.com/erix/NexaTransmitter) to RPi using [wiringPi](http://wiringpi.com)
+Example for communicating with Nexa (or Arctech, KaKu, etc) 433MHz switches with a Raspberry Pi. This is a port from [erix Arduino lib](https://github.com/erix/NexaTransmitter) to RPi using [wiringPi](http://wiringpi.com)
 
-# Requirements
+## Requirements
 * [wiringPi](http://wiringpi.com/download-and-install/)
 
 * 433MHz transmitter circuit, for example [this](http://www.kjell.com/sortiment/el/elektronik/fjarrstyrning/433-mhz-sandar-och-mottagarmodul-p88905)
 
-# Hardware setup
+## Hardware setup
 The transmitter is connected as follows:
 
 ![Connections](connections.png)
 
-# Quickstart
-An example, NexaExample.cpp, will turn off a unit, wait 3 seconds and turn it back on again.
+## Quickstart
+An example, NexaExample.cpp, will turn off a unit, wait 3 seconds and turn it back on again. Update NexaExample.cpp with your unit number and transmitter id.
 
 ```$ git clone https://github.com/henrikjonhed/NexaTransmitter.git```
 
